@@ -1,0 +1,50 @@
+.c-footer {
+  width: 100%;
+  margin: 15px 0;
+
+  .container {
+    width: 1040px;
+    margin: 0 auto;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+
+    .f-item:not(:first-child) {
+      border-left: 1px solid #e9e9e9;
+    }
+
+    .f-item {
+      width: 25%;
+      padding: 10px;
+      margin: 10px;
+      display: flex;
+      flex-wrap: wrap;
+
+      .title {
+        i {
+          font-size: 14px;
+          margin-right: 5px;
+        }
+
+        margin-bottom: 10px;
+        font-weight: 600;
+        text-align: center;
+        width: 100%;
+      }
+
+      .list-item {
+        padding: 5px 0;
+        text-align: center;
+        width: 50%;
+      }
+    }
+  }
+
+  .bottom {
+    border-top: 1px solid #e9e9e9;
+    width: 1040px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+  }
+}
